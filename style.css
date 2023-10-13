@@ -32,19 +32,46 @@ body{
     margin-bottom: 50px;
 }
 
-.conteudo-principal{
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    font-size: 30px;
+  }
+
+.comprar {
+    background-color: #070707;
+    color: rgb(243, 234, 234);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.comprar:hover{
+    background:#53a7ea; 
+}
+
+  
+.conteudo-principal-img {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-}
-
-.conteudo-principal-img{
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
     gap: 20px;
-}
+  }
+
+.conteudo-principal-img img {
+    max-width: 100%;
+    height: auto;
+  }
 
 
 #container{
@@ -78,24 +105,35 @@ label {
     font-weight: bold;
 }
 
-button.cadastrar {
-    background-color: #002be9;
-    color: white;
+.cadastrar {
+    background-color: #070707;
+    color: rgb(243, 234, 234);
     border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-button.limpar {
-    background-color: #9ba733;
-    color: white;
+.limpar {
+    background-color: #070707;
+    color: rgb(243, 234, 234);
     border: none;
-    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.button-container {
+.button-enviar {
     display: flex;
     justify-content: flex-end;
     margin-top: auto; 
     flex-grow: 1;
+}
+
+.cadastrar:hover{
+    background:#53a7ea; 
+}
+
+.limpar:hover{
+    background:#53a7ea; 
 }
 
 button {
