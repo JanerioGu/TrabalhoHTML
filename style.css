@@ -83,8 +83,19 @@ body {
 }
 
 .FinalDaPag {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
     min-height: 5vh;
-    padding-top: 10px;
+}
+
+.FinalDaPag p {
+    font-size: 14px;
+}
+
+.FinalDaPag a {
+    text-decoration: none;
+    color: #070707;
 }
 
 #container {
