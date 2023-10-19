@@ -60,7 +60,6 @@ body {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* Adicionando margem superior e inferior para separar os botões das imagens */
 }
 
 .comprar:hover {
@@ -77,9 +76,8 @@ body {
 
 .conteudo-principal-img img {
     max-width: 320px;
-    /* Alterado para 320px */
     height: 320px;
-    /* Alterado para 320px */
+
 }
 
 .FinalDaPag {

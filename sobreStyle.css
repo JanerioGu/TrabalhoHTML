@@ -15,13 +15,16 @@ main{
 }
 
 .cabecalho {
+    border-top: 0.2px solid #1A1A1A;
+    margin-bottom: 50px;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
-    min-height: 5vh;
+    min-height: 5vh; 
+
 }
 
 .cabecalho-menu {
@@ -75,6 +78,7 @@ ul {
     background: #fff;
     min-height: 5vh;
 }
+
 
 h1 {
     font-size: 32px;
