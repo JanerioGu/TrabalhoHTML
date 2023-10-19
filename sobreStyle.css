@@ -9,7 +9,8 @@ body {
     background: #cecccc;
     font-family: Arial, Helvetica, sans-serif;
 }
-main{
+
+main {
     min-height: 80vh;
 
 }
@@ -21,6 +22,7 @@ main{
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+    margin: 10px;
     min-height: 5vh;
 }
 
@@ -30,6 +32,7 @@ main{
 }
 
 .menu-pagina {
+    font-family: 'Courier New', Courier, monospace;
     color: #1A1A1A;
     font-weight: 400;
     font-size: 30px;
@@ -37,7 +40,9 @@ main{
 }
 
 .conteudo-sobre {
+    border-top: 0.2px solid #1A1A1A;
     padding: 20px;
+
 }
 
 .card-sobre {
@@ -70,10 +75,13 @@ ul {
 }
 
 .FinalDaPag {
+    font-size: 14px;
     text-align: center;
     padding: 10px;
     background: #fff;
     min-height: 5vh;
+    
+    padding-top: 10px;
 }
 
 h1 {
@@ -89,10 +97,7 @@ h3 {
 }
 
 
-.menu-pagina {
-    text-decoration: none;
-    color: #070707;
-}
+
 
 
 .card-missao p,
@@ -107,12 +112,7 @@ ul li {
 }
 
 
-.FinalDaPag p {
-    font-size: 14px;
-}
 
 
-.FinalDaPag a {
-    min-height: 5vh;
-    padding-top: 10px;
-}
+
+
