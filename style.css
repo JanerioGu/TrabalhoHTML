@@ -14,7 +14,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 10px;
+    min-height: 5vh;
 }
 
 .cabecalho-menu {
@@ -33,23 +34,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-top: 0.2px solid #1A1A1A;
     margin-bottom: 50px;
+    min-height: 85vh;
+}
+
+.centerH1 {
+    text-align: center;
+    padding: 10px;
 }
 
 .conteudo-principal {
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-direction: column;
+    padding-top: 5%;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
-}
-
-.conteudo-principal-escrito {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .comprar {
@@ -58,26 +58,34 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* Adicionando margem superior e inferior para separar os botões das imagens */
 }
 
 .comprar:hover {
     background: #53a7ea;
 }
 
-
 .conteudo-principal-img {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;
 }
 
 .conteudo-principal-img img {
-    max-width: 100%;
-    height: auto;
+    max-width: 320px;
+    /* Alterado para 320px */
+    height: 320px;
+    /* Alterado para 320px */
 }
 
+.FinalDaPag {
+    min-height: 5vh;
+    padding-top: 10px;
+}
 
 #container {
     font-family: Arial, Helvetica, sans-serif;
@@ -151,7 +159,6 @@ label {
 
 button {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 100px;
     padding: 12px 20px;
     font-size: 16px;
 }
@@ -162,7 +169,6 @@ table {
     width: 80%;
     margin: auto;
 }
-
 
 table th,
 table td {
@@ -176,9 +182,8 @@ table th {
     background-color: #9d9d9d;
 }
 
-.titulorelatorio{
+.titulorelatorio {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 24px;
-    
 }
