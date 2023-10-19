@@ -16,6 +16,7 @@ body {
     justify-content: space-around;
     padding: 10px;
     min-height: 5vh;
+    border-bottom: 0.2px solid #1A1A1A;
 }
 
 .cabecalho-menu {
@@ -91,7 +92,7 @@ body {
     padding: 50px;
     width: 60%;
     text-align: justify;
-    margin: 200px;
+    margin: 100px;
     box-shadow: 5px 5px 5px rgba(155, 162, 216, 0.4);
     border-radius: 10px;
     flex-wrap: wrap;
@@ -184,4 +185,26 @@ table th {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 24px;
+}
+
+.preco {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+}
+.FinalDaPag {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    min-height: 5vh;
+}
+
+.FinalDaPag p {
+    font-size: 14px;
+}
+
+/* Estilos para os links do rodapé */
+.FinalDaPag a {
+    text-decoration: none;
+    color: #070707;
 }
